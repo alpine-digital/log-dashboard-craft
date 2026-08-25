@@ -1,0 +1,31 @@
+{
+    "name": "alpinedigital/log-dashboard-craft",
+    "description": "In-project log viewer for local development — reads the host project's own storage/logs from the Craft control panel, no SSH.",
+    "type": "craft-plugin",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "craftcms/cms": "^4.0.0 || ^5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlpineDigital\\LogDashboard\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Log Dashboard",
+        "handle": "log-dashboard",
+        "developer": "Alpine Digital",
+        "documentationUrl": "https://gitlab.com/alpinedigital/log-dashboard-craft/-/blob/main/README.md",
+        "class": "AlpineDigital\\LogDashboard\\Plugin"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true,
+            "php-http/discovery": true
+        }
+    }
+}
