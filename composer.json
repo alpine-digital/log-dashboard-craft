@@ -16,7 +16,7 @@
         "name": "Log Dashboard",
         "handle": "log-dashboard",
         "developer": "Alpine Digital",
-        "documentationUrl": "https://gitlab.com/alpinedigital/log-dashboard-craft/-/blob/main/README.md",
+        "documentationUrl": "https://github.com/alpine-digital/log-dashboard-craft/blob/main/README.md",
         "class": "AlpineDigital\\LogDashboard\\Plugin"
     },
     "minimum-stability": "stable",
